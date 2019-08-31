@@ -1,0 +1,38 @@
+name: fluro-web
+version: 0.0.1
+description: copy version from and modify it to web version
+publish_to:  https://pub.dartlang.org
+
+# dependencies:
+#   args: ^1.5.2
+#   dart_inquirer: ^1.0.0
+#   console: ^3.1.0
+#   path: ^1.6.4
+
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_test:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_test
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+authors:
+  - ryan <zhuyan730@163.com>
+
+homepage: https://github.com/ryan730/fluro_web
+
+executables:
+  fluro:
+
+# pub publish --dry-run --server=https://pub.dartlang.org
+# pub publish -v --server=https://pub.dartlang.org
