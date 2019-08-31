@@ -20,13 +20,13 @@ See CHANGELOG for all breaking (and non-breaking) changes.
 You should ensure that you add the router as a dependency in your flutter project.
 ```yaml
 dependencies:
- fluro-web: "^1.5.1"
+ fluro_web: "^1.5.1"
 ```
 
 You can also reference the git repo directly if you want:
 ```yaml
 dependencies:
- fluro-web:
+ fluro_web:
    git: https://github.com/ryan730/fluro_web
 ```
 

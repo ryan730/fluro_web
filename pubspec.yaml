@@ -1,4 +1,4 @@
-name: fluro-web
+name: fluro_web
 version: 0.0.1
 description: copy version from and modify it to web version
 publish_to:  https://pub.dartlang.org
